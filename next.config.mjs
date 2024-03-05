@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-};
-
-export default nextConfig;
+    basePath: "/nextjs-ecommerce",
+    output: "export",
+    reactStrictMode: true,
+  };
+  
+  module.exports = nextConfig;
